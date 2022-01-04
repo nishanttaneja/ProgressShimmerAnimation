@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ProgressShimmerAnimation",
+        "repositoryURL": "https://github.com/nishanttaneja/ProgressShimmerAnimation",
+        "state": {
+          "branch": "main",
+          "revision": "c3dacf9f2555ca37b54e6b87eeefecf13ea412d6",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
