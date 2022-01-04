@@ -12,11 +12,11 @@ public protocol ProgressShimmerAnimation: UIView {
 
 extension ProgressShimmerAnimation {
     
-    var progressShimmerAnimationLayer: CAGradientLayer? {
+    public var progressShimmerAnimationLayer: CAGradientLayer? {
         nil
     }
     
-    var isAnimating: Bool {
+    public var isAnimating: Bool {
         false
     }
     
