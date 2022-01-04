@@ -13,7 +13,6 @@
 		B4BF9A5E2784C578005CC022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4BF9A5C2784C578005CC022 /* Main.storyboard */; };
 		B4BF9A602784C579005CC022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4BF9A5F2784C579005CC022 /* Assets.xcassets */; };
 		B4BF9A632784C579005CC022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4BF9A612784C579005CC022 /* LaunchScreen.storyboard */; };
-		B4BF9A6E2784C5BB005CC022 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BF9A6D2784C5BB005CC022 /* ProgressView.swift */; };
 		B4BF9A712784C74C005CC022 /* ProgressShimmerAnimation in Frameworks */ = {isa = PBXBuildFile; productRef = B4BF9A702784C74C005CC022 /* ProgressShimmerAnimation */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +25,6 @@
 		B4BF9A5F2784C579005CC022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4BF9A622784C579005CC022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4BF9A642784C579005CC022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4BF9A6D2784C5BB005CC022 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +61,6 @@
 				B4BF9A562784C578005CC022 /* AppDelegate.swift */,
 				B4BF9A582784C578005CC022 /* SceneDelegate.swift */,
 				B4BF9A5A2784C578005CC022 /* ViewController.swift */,
-				B4BF9A6D2784C5BB005CC022 /* ProgressView.swift */,
 				B4BF9A5C2784C578005CC022 /* Main.storyboard */,
 				B4BF9A5F2784C579005CC022 /* Assets.xcassets */,
 				B4BF9A612784C579005CC022 /* LaunchScreen.storyboard */,
@@ -150,7 +147,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4BF9A5B2784C578005CC022 /* ViewController.swift in Sources */,
-				B4BF9A6E2784C5BB005CC022 /* ProgressView.swift in Sources */,
 				B4BF9A572784C578005CC022 /* AppDelegate.swift in Sources */,
 				B4BF9A592784C578005CC022 /* SceneDelegate.swift in Sources */,
 			);

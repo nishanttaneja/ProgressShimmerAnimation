@@ -5,13 +5,11 @@
 //  Created by Nishant Taneja on 04/01/22.
 //
 
-import Foundation
 import UIKit
-import ProgressShimmerAnimation
 
-class ProgressView: UIView, ProgressShimmerAnimation {
-    var progressShimmerAnimationLayer: CAGradientLayer? = nil
-    var isAnimating: Bool = false
+public class ProgressView: UIView, ProgressShimmerAnimation {
+    public var progressShimmerAnimationLayer: CAGradientLayer? = nil
+    public var isAnimating: Bool = false
     
     // MARK: - Constructors
     
