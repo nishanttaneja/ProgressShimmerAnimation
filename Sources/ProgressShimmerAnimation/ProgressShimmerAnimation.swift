@@ -3,10 +3,10 @@ import UIKit
 public protocol ProgressShimmerAnimation: UIView {
     
     var progressShimmerAnimationLayer: CAGradientLayer? { get set }
-    public var isAnimating: Bool { get set }
+    var isAnimating: Bool { get set }
     
-    public func startProgressShimmerAnimation()
-    public func stopProgressShimmerAnimation()
+    func startProgressShimmerAnimation()
+    func stopProgressShimmerAnimation()
     
 }
 
@@ -42,7 +42,7 @@ extension ProgressShimmerAnimation {
         return animation
     }
     
-    func startProgressShimmerAnimation() {
+    public func startProgressShimmerAnimation() {
         DispatchQueue.main.async {
             self.isHidden = false
             self.isAnimating =  true
@@ -52,7 +52,7 @@ extension ProgressShimmerAnimation {
         }
     }
     
-    func stopProgressShimmerAnimation() {
+    public func stopProgressShimmerAnimation() {
         DispatchQueue.main.async {
             self.isHidden = true
             self.isAnimating = false
