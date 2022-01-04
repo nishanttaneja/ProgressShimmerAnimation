@@ -21,6 +21,4 @@ class ViewController: UIViewController {
         progressView.startProgressShimmerAnimation()
     }
 
-
 }
-
