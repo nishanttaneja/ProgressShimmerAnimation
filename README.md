@@ -1,3 +1,3 @@
 # ProgressShimmerAnimation
 
-A description of this package.
+ProgressShimmerAnimation is a protocol for displaying progress-like shimmer animation on views.
